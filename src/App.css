@@ -75,4 +75,14 @@
   background-color: burlywood;
   border: none;
   border-radius: 10px;
+  cursor: pointer;
+}
+
+.div button:hover{
+  background-color: lightpink;
+}
+
+.img{
+  width: fit-content;
+  margin: 50px auto;
 }

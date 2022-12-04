@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import React from "react";
+import airbnb from './Images/download.jpg'
 
 function App() {
   // return (
@@ -40,6 +41,9 @@ function App() {
       <div className="div">
         <p>qwertyuioasdfghjk</p>
         <button>Read more</button>
+      </div>
+      <div className="img">
+        <img src={airbnb}/>
       </div>
     </>
   );

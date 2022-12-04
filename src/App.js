@@ -1,6 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
-import React from 'react';
+import logo from "./logo.svg";
+import "./App.css";
+import React from "react";
 
 function App() {
   // return (
@@ -22,9 +22,27 @@ function App() {
   //   </div>
   // );
 
-  const button = React.createElement('button', {}, 'Clicke me');
+  // const button = React.createElement('button', {
+  //   className: 'btn'
+  // }, 'Clicke me');
 
-  return button;
+  // const div = React.createElement('div', {},
+  //   [
+  //     React.createElement('p', {}, "asdfghjklasdfghjkasdfghjk"),
+  //     React.createElement('button', {}, "Read More")
+  //   ]
+  // );
+
+  // return div;
+
+  return (
+    <>
+      <div className="div">
+        <p>qwertyuioasdfghjk</p>
+        <button>Read more</button>
+      </div>
+    </>
+  );
 }
 
 export default App;

@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+
+.btn{
+  background-color: aqua;
+  padding: 5px 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  margin: 100px 40%;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn:hover{
+  background-color: lightgreen;
+}
+
+.div{
+  width: 500px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  align-items: center;
+  border: 1px solid black;
+  background-color: #61dafb;
+  border-radius: 10px;
+}
+.div p{
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.div button{
+  font-size: 18px;
+  font-weight: 700;
+  padding: 5px 20px;
+  background-color: burlywood;
+  border: none;
+  border-radius: 10px;
+}
